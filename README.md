@@ -14,4 +14,8 @@ Then clone Vundle.
 Then create .vimrc with the following contents
 > echo "runtime vimrc" ~/.vimrc
 
+Finally, install the plugins
+> vim .vim/vimrc
+> :PluginInstall!
+
 Read vimrc for further details
