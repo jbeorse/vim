@@ -37,6 +37,9 @@ Plugin 'gmarik/Vundle.vim'
 " Lots of color schemes to play with
 Plugin 'flazz/vim-colorschemes'
 
+" Highlight unwanted whitespace
+Plugin 'ntpeters/vim-better-whitespace'
+
 call vundle#end()
 
 " ------------------------------------------------- "
@@ -217,4 +220,3 @@ set backupdir=~/.vim/backup
 set undofile
 set undodir=~/.vim/undo
 set directory=~/.vim/tmp
-
