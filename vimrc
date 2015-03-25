@@ -6,7 +6,7 @@ set nocompatible
 " ------------------------------------------------- "
 
 " -- Syntax for installing Plugins
-"  
+"
 "  Hosted on Github: Plugin 'gmarik/Vundle'
 "
 "  Not hosted on Github: Plugin 'git://git.wincent.com/command-t.git'
@@ -39,6 +39,12 @@ Plugin 'flazz/vim-colorschemes'
 
 " Highlight unwanted whitespace
 Plugin 'ntpeters/vim-better-whitespace'
+
+
+"""""""""" Javascript plugins
+
+" Linter
+Plugin 'shutnik/jshint2.vim'
 
 call vundle#end()
 
