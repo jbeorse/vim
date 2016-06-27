@@ -40,11 +40,21 @@ Plugin 'flazz/vim-colorschemes'
 " Highlight unwanted whitespace
 Plugin 'ntpeters/vim-better-whitespace'
 
+" Auto code completion
+Plugin 'Valloric/YouCompleteMe'
+
+"""""""""" Android plugins
+
+" Add syntax highlighting for logcat files
+" Plugin 'vim-scripts/Logcat-syntax-highlighter'
+
+" Gradle integration and other Anroid nicities
+" Plugin 'hsanson/vim-android'
 
 """""""""" Javascript plugins
 
 " Linter
-Plugin 'shutnik/jshint2.vim'
+" Plugin 'shutnik/jshint2.vim'
 
 call vundle#end()
 
