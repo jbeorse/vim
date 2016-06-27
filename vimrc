@@ -109,9 +109,9 @@ set expandtab
 " Auto indent each new line to the level of the prev line
 set autoindent
 
-" Highlight any characters that go past 100 columns
+" Highlight any characters that go past 80 columns
 highlight OverLength ctermbg=red ctermfg=white guibg=#592929
-match OverLength /\%101v.\+/
+match OverLength /\%80v.\+/
 
 " ------------------------------------------------- "
 " ------------------- movement -------------------- "
