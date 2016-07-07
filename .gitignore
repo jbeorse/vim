@@ -1,0 +1,7 @@
+# Ignore bundles (should be checkout each time)
+bundles/*
+
+# But don't ignore the Vundle bundle, as it is needed to run everything
+!bundles/Vundle.vim
+
+
